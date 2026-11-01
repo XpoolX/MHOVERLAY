@@ -1,0 +1,112 @@
+MHOverlay is an independent REFramework overlay. It is not an official HunterPie
+port and does not include HunterPie source code, artwork, icons or branding.
+No code or assets from Nexus Mods MHWilds Overlay (mod 81) or CatLib are included.
+
+Monster portraits and six consumable icons in mhoverlay/artwork.lua were converted
+from the two images supplied by the user for this overlay. They depict Monster
+Hunter Wilds artwork, whose rights belong to CAPCOM and/or its respective owners.
+They are not original MHOverlay artwork and are not covered by the MIT licenses
+below. No permission to redistribute that artwork is asserted by this project.
+The reduced palette/transparent sprite conversion does not transfer ownership.
+
+The blue and red flat-bottom drink flask sprites (cool_drink and hot_drink)
+are original MHOverlay drawings, not resources from the user-supplied sheets.
+The stat_* sprites for the horizontal hunter-stat strip are also original
+MHOverlay pixel drawings, not official game icons.
+
+Monster names and EnemyDef.ID field associations were checked against:
+https://mhwilds.kiranico.com/data/monsters
+https://github.com/Synthlight/MHWilds-Dumped-Data/blob/master/Enemy%20IDs.csv
+Only identifier/name associations are used; no reference-site images are bundled.
+
+The Wilds SDK access pattern in reframework/autorun/mhoverlay/wilds.lua is
+adapted from the following MIT-licensed reference:
+
+YURI Overlay by GreenComfyTea
+https://github.com/GreenComfyTea/MHWs-YURI-Overlay
+Commit: 8f85a9e620e89be53b8f7e5c169e1f871faaf417
+src/Core/MonsterManager/MonsterManager.cs
+src/Core/MonsterManager/Entities/LargeMonster.cs
+src/Core/PlayerManager/PlayerManager.cs
+src/Core/DamageMeterManager/Entities/LocalPlayer.cs
+
+The MIT License (MIT)
+
+Copyright (c) 2025 GreenComfyTea
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+The final-damage SDK hook/correlation pattern in mhoverlay/wilds.lua is
+adapted from the following MIT-licensed reference. No motion data, skill
+tracking, assets or modules from that project are bundled:
+
+My Hunt Report by JCubic
+https://github.com/cubicj/my-hunt-report
+Commit: 2faa39e4dddabeedbffcc814c43dada6e33823c1
+reframework/autorun/MyHuntReport/HitCapture.lua
+reframework/autorun/MyHuntReport/Game.lua
+
+MIT License
+
+Copyright (c) 2026 JCubic
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+The quest-target SDK access pattern in mhoverlay/wilds.lua is adapted from:
+MHWildsCrownHelper by TheCoCe
+https://github.com/TheCoCe/MHWildsCrownHelper
+reframework/autorun/MHWCrownHelper/Monsters.lua
+
+MIT License
+
+Copyright (c) 2022 TheCoCe
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
